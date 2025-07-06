@@ -1,11 +1,20 @@
 function Program() {
   return (
     <section id="program" className="py-16 px-4 max-w-6xl mx-auto bg-green-50">
-      <h2 className="text-3xl font-bold mb-8 text-center text-green-800">Program Kerja</h2>
+      <h2
+        className="text-3xl font-bold mb-8 text-center text-green-800"
+        data-aos="fade-up"
+      >
+        Program Kerja
+      </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
         {/* Card 1 */}
-        <div className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300">
+        <div
+          className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300"
+          data-aos="fade-up"
+          data-aos-delay="0"
+        >
           <img
             src="https://via.placeholder.com/400x250?text=Penyuluhan+Gizi"
             alt="Penyuluhan Gizi"
@@ -24,7 +33,11 @@ function Program() {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300">
+        <div
+          className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <img
             src="https://via.placeholder.com/400x250?text=Digitalisasi+Desa"
             alt="Digitalisasi Desa"
@@ -43,7 +56,11 @@ function Program() {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300">
+        <div
+          className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <img
             src="https://via.placeholder.com/400x250?text=UMKM"
             alt="UMKM"
@@ -62,7 +79,11 @@ function Program() {
         </div>
 
         {/* Card 4 */}
-        <div className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300">
+        <div
+          className="bg-white rounded-lg shadow p-4 hover:shadow-lg transition duration-300"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <img
             src="https://via.placeholder.com/400x250?text=Wisata+Desa"
             alt="Wisata Edukasi"
