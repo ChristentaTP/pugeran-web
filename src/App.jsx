@@ -28,7 +28,6 @@ import "aos/dist/aos.css";
         <Peta />
         <Profil />
         <Program />
-        <Peta />
         <Galeri />
         
       </main>
