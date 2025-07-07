@@ -5,7 +5,7 @@ import Program from "./sections/Program";
 import Galeri from "./sections/Galeri";
 import Footer from "./sections/Footer";
 
-import Peta from "./sections/peta";
+import Peta from "./sections/Peta";
 
 import { useEffect } from "react";
 import AOS from "aos";
